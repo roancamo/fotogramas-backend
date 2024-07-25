@@ -7,7 +7,7 @@ export class Usuario {
         public fechaRegistro: Date,
         public fotoPerfil: string,
         public seguidores: Usuario[],
-        public siguiendo: Usuario[],
+        public siguiendo: string[],
         public fotosSubidas: Foto[]
 
     ) {
